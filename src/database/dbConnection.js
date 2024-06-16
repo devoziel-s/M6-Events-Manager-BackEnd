@@ -5,15 +5,13 @@ const sequelize = new Sequelize('events_manager', 'root', '2004', {
   dialect: "mysql"
 });
 
-const connectToDataBase = async () =>{
-  try{
+const connectToDataBase = async () => {
+  try {
     await sequelize.authenticate();
-    await sequelize.sync();
     console.log("Connection established successfully");
-  }
-  catch{
-    console("Error to connect with database")
+  } catch (error) {
+    console.error("Error to connect with database", error);
   }
 };
 
-export {sequelize, connectToDataBase}
+export { sequelize, connectToDataBase };

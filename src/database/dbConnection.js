@@ -8,6 +8,7 @@ const sequelize = new Sequelize('events_manager', 'root', '2004', {
 const connectToDataBase = async () => {
   try {
     await sequelize.authenticate();
+    await sequelize.sync();
     console.log("Connection established successfully");
   } catch (error) {
     console.error("Error to connect with database", error);

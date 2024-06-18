@@ -123,5 +123,5 @@ DELETE ```/api/attendees/id-do-participante```
 ### Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests para melhorar o projeto.
 
 Licença
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LISENCE](LISENCE) para mais detalhes.
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 

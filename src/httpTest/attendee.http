@@ -1,0 +1,9 @@
+# Cria um participante
+POST http://localhost:3432/api/attendees
+Content-Type: application/json
+
+{
+  "name": "Oziel",
+  "email": "ozielzin358@gmail.com",
+  "phone": "62992479961"
+}

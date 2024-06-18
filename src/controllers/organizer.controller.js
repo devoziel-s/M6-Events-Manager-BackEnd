@@ -2,7 +2,7 @@ import { OrganizerService } from "../services/organizer.service.js";
 
 const instanceOrganizerService = new OrganizerService();
 
-export const createOrganizer = async (req, res) => {
+export const registerOrganizer = async (req, res) => {
   const { name, email, phone } = req.body;
   await instanceOrganizerService.registerOrganizer(name, email, phone);
   return res

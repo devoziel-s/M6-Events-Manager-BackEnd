@@ -24,7 +24,7 @@ Projeto do Módulo 6 - Empregabilidade já (PdA)
 - ❌ Associar Participantes a Eventos
 --- 
 
-# Passo a Passo para Execução do Projeto
+## Passo a Passo para Execução do Projeto
 ## Pré-requisitos
 - Node.js e npm instalados
 - MySQL instalado e em execução
@@ -44,9 +44,9 @@ cd M6-Events-Manager-BackEnd
 npm install
 ```
 
-# Configuração do Banco de Dados
+## Configuração do Banco de Dados
 
-**1. Crie um arquivo .env na raiz do projeto e configure as variáveis de ambiente conforme necessário. Um exemplo de configuração pode ser:**
+**- Crie um arquivo .env na raiz do projeto e configure as variáveis de ambiente conforme necessário. Um exemplo de configuração pode ser:**
 
 ```env
 DB_USER=root
@@ -59,7 +59,7 @@ DB_NAME=events_manager
 ```bash
 npm start
 ```
-# Exemplos de Rotas
+## Exemplos de Rotas
 ### Rotas padrão
 - **Organizadores:** ```/api/organizers```
 - **Eventos:** ```/api/events```
